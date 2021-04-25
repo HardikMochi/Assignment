@@ -51,3 +51,26 @@ how keyword-based and vector-based search engines
 <a name="Executive_Summary"></a>
 ## Executive Summary:
 
+### Apporach that we are follow for this project
+1. first we embedded all the article using the BERT model
+2. than we embedded the query using the BERT model
+3. tha we find the similarity between the query vector and every document vector in our database and return those with the highest score
+
+#### Model
+Next, let’s encode the paper abstracts. Sentence Transformers offers a number of pretrained models. Here, we will use the distilbert-base-nli-stsb-mean-tokens model which performs great in Semantic Textual Similarity tasks and it’s quite faster than BERT as it is considerably smaller.
+
+#### Vector similarity search with Faiss
+Faiss is a library for efficient similarity search and clustering of dense vectors. It contains algorithms that search in sets of vectors of any size, even ones that do not fit in RAM.
+
+Faiss is built around the Index object which contains, and sometimes preprocesses, the searchable vectors. Faiss has a large collection of indexes. You can even create composite indexes. Faiss handles collections of vectors of a fixed dimensionality d, typically a few 10s to 100s.
+
+#### Searching the index
+The index we built will perform a k-nearest-neighbour search. We have to provide the number of neighbours to be returned.
+
+Let's query the index with an abstract from our dataset and retrieve the 5 most relevant documents. The first one must be our query!
+
+#### Result 
+Let’s try to find relevant academic articles for a new, unseen search query.
+<p align="center">
+  <img src="https://github.com/HardikMochi/Assignment/blob/main/images/2.PNG" width=600>
+</p>
