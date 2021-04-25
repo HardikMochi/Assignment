@@ -9,10 +9,10 @@ how keyword-based and vector-based search engines
  1. <b>index documents (ie store them in an easily retrievable form)</b>
  2. <b> vectorise text data </b>
  3.  <b>measure how relevant a document is to a query.</b>
-<details open>
-<summary>Show/Hide</summary>
-<br>
 
+
+
+## Tabel of contents
 1. [ File Descriptions ](#File_Description)
 2. [ Technologies Used ](#Technologies_Used)    
 3. [ Executive Summary ](#Executive_Summary)
