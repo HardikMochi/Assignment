@@ -4,6 +4,8 @@
   <img src="https://github.com/HardikMochi/Assignment/blob/main/images/img.png" width=600>
 </p>
 
+We are building a system that can extract topics from an article and ranking of the documents according to relevance to the query.
+
 ## Approach to the solution
 1. Here,i used the distilbert-base-nli-stsb-mean-tokens model which performs great in Semantic Textual Similarity tasks and it’s quite faster than BERT as it is considerably smaller. 
 2. The scalability of the model has decreased when there is the long sentence(50-60 words sentence).
@@ -11,8 +13,7 @@
 4. this model is performed very well on the unseen data and give the best result.
 5. we can deploy this model on cloud platform like AWS and Microsoft Azure because this model is light weight model unlike Bert model ,take very less time to resplond and performed very well on the noisy data.
 
-
-We are building a system that can extract topics from an article and ranking of the documents according to relevance to the query. 
+ 
 
 ## Tabel of contents
 1. [ File Descriptions ](#File_Description)
