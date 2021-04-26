@@ -3,6 +3,13 @@
 <p align="center">
   <img src="https://github.com/HardikMochi/Assignment/blob/main/images/img.png" width=600>
 </p>
+
+## Approach to the solution
+1. Here,i used the distilbert-base-nli-stsb-mean-tokens model which performs great in Semantic Textual Similarity tasks and it’s quite faster than BERT as it is considerably smaller. 
+2. The scalability of the model has decreased when there is the long sentence(50-60 words sentence).
+3. Hear we dont need data to train the bert model because we use the pretrained bert model which is trained on Wikipedia and Book Corpus, a dataset containing +10,000 books of different genres.
+4. 
+
 We are building a system that can extract topics from an article and ranking of the documents according to relevance to the query. 
 
 how keyword-based and vector-based search engines
@@ -57,7 +64,7 @@ how keyword-based and vector-based search engines
 3. tha we find the similarity between the query vector and every document vector in our database and return those with the highest score
 
 #### Model
-Next, let’s encode the paper abstracts. Sentence Transformers offers a number of pretrained models. Here, we will use the distilbert-base-nli-stsb-mean-tokens model which performs great in Semantic Textual Similarity tasks and it’s quite faster than BERT as it is considerably smaller.
+Next, let’s encode the paper abstracts. Sentence Transformers offers a number of pretrained models. Here, we used the distilbert-base-nli-stsb-mean-tokens model which performs great in Semantic Textual Similarity tasks and it’s quite faster than BERT as it is considerably smaller.
 
 #### Vector similarity search with Faiss
 Faiss is a library for efficient similarity search and clustering of dense vectors. It contains algorithms that search in sets of vectors of any size, even ones that do not fit in RAM.
