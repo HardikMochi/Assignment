@@ -1,6 +1,6 @@
 <h1 align='center'>Extract article based on query using BERT</h1>
 
-Hear is the Demo App
+Hear is the Demo App Video
 
 [![Watch the video](https://i.ytimg.com/vi/b8w8rOAMOnY/hqdefault.jpg)](https://youtu.be/b8w8rOAMOnY)
 
