@@ -56,7 +56,7 @@ We are building a system that can extract topics from an article and ranking of 
 ### Apporach that we are follow for this project
 1. first we embedded all the article using the BERT model
 2. than we embedded the query using the BERT model
-3. tha we find the similarity between the query vector and every document vector in our database and return those with the highest score
+3. than we find the similarity between the query vector and every document vector in our database and return those with the highest score
 
 #### Model
 Next, let’s encode the paper abstracts. Sentence Transformers offers a number of pretrained models. Here, we used the distilbert-base-nli-stsb-mean-tokens model which performs great in Semantic Textual Similarity tasks and it’s quite faster than BERT as it is considerably smaller.
