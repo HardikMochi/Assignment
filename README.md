@@ -1,8 +1,6 @@
 <h1 align='center'>Extract article based on query using BERT</h1>
 
-<p align="center">
-  <img src="https://github.com/HardikMochi/Assignment/blob/main/images/img.png" width=600>
-</p>
+[![Watch the video](http://i3.ytimg.com/vi/b8w8rOAMOnY/maxresdefault.jpg)](https://youtu.be/b8w8rOAMOnY)
 
 We are building a system that can extract topics from an article and ranking of the documents according to relevance to the query.
 
