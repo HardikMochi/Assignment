@@ -6,7 +6,6 @@
 
 We are building a system that can extract topics from an article and ranking of the documents according to relevance to the query.
 
-## Approach to the solution
 1. Here,i used the distilbert-base-nli-stsb-mean-tokens model which performs great in Semantic Textual Similarity tasks and it’s quite faster than BERT as it is considerably smaller. 
 2. The scalability of the model has decreased when there is the long sentence(50-60 words sentence).
 3. Hear we dont need data to train the bert model because we use the pretrained bert model which is trained on Wikipedia and Book Corpus, a dataset containing +10,000 books of different genres.
@@ -75,5 +74,5 @@ Let's query the index with an abstract from our dataset and retrieve the 5 most 
 #### Result 
 Let’s try to find relevant academic articles for a new, unseen search query.
 <p align="center">
-  <img src="https://github.com/HardikMochi/Assignment/blob/main/images/2.PNG" width=600>
+  <img src="https://github.com/HardikMochi/Assignment/blob/main/images/3.PNG" height=200>
 </p>
