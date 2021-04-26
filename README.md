@@ -1,4 +1,4 @@
-<h1 align='center'>Extract topics from an article based on query using BERT</h1>
+<h1 align='center'>Extract article based on query using BERT</h1>
 
 <p align="center">
   <img src="https://github.com/HardikMochi/Assignment/blob/main/images/img.png" width=600>
